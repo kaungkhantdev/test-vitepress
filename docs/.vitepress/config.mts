@@ -2,10 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "Document",
   description: "A VitePress Site",
+  head: [
+    ['link', { rel: 'icon', href: '/image/favicon.ico' }]
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
+    logo: '/image/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
@@ -18,7 +24,6 @@ export default defineConfig({
         ]
       }
     ],
-
     sidebar: [
       {
         text: 'Examples',
@@ -51,13 +56,13 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © Hi You'
-    }
-  }
+    },
+  },
+  
 })
