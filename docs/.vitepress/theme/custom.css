@@ -1,0 +1,34 @@
+:root {
+    --vp-c-custom: #50c536;
+    --vp-c-custom-soft: #50c536;
+    --vp-c-custom-light: #40a22a;
+    --vp-c-custom-lighter: #50c536;
+    --vp-c-custom-dark: #50c536;
+    --vp-c-custom-darker:#50c536;
+
+    --vp-c-custom-dark-cs: #9bec4b;
+    --vp-c-custom-soft-dark-cs: #96d755;
+    --vp-c-custom-light-dark-cs: #55a603;
+    --vp-c-custom-lighter-dark-cs: #79c52d;
+    --vp-c-custom-dark-dark-cs: #9bec4b;
+    --vp-c-custom-darker-dark-cs:#9bec4b;
+}
+
+
+/* .vitepress/theme/custom.css */
+:root {
+    --vp-c-brand-1: var(--vp-c-custom);
+    --vp-c-brand-2: var(--vp-c-custom-light);
+    --vp-c-brand-3: var(--vp-c-custom-lighter);
+    --vp-c-brand-soft: var(--vp-c-custom-soft);
+}
+  
+
+.dark {
+    
+    --vp-c-brand-1: var(--vp-c-custom-dark-cs);
+    --vp-c-brand-2: var(--vp-c-custom-light-dark-cs);
+    --vp-c-brand-3: var(--vp-c-custom-lighter-dark-cs);
+    --vp-c-brand-soft: var(--vp-c-custom-soft-dark-cs);
+    
+}

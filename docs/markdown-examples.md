@@ -60,6 +60,10 @@ This is a details block.
 
 **Output**
 
+::: info HI
+Info Hi box
+:::
+
 ::: info
 This is an info box.
 :::
