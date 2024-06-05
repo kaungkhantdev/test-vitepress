@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a3 as d}from"./chunks/framework.Cj_tvOGi.js";const p=JSON.parse('{"title":"Guide","description":"","frontmatter":{},"headers":[],"relativePath":"guide/hi.md","filePath":"guide/hi.md"}'),i={name:"guide/hi.md"},r=d("",2),l=[r];function n(s,o,c,h,_,g){return a(),e("div",null,l)}const x=t(i,[["render",n]]);export{p as __pageData,x as default};
