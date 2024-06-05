@@ -11,7 +11,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    logo: '/image/logo.svg',
+    logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },

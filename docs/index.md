@@ -7,7 +7,7 @@ hero:
   text: "A VitePress Site"
   tagline: My great project tagline
   image:
-    src: /image/logo.svg
+    src: /logo.svg
     alt: VitePress
   actions:
     - theme: brand
